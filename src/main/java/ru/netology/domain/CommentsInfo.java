@@ -4,8 +4,8 @@ public class CommentsInfo {
     private int count;
     private int canPost;
     private int groupCanPost;
-    private boolean canClose;
-    private boolean canOpen;
+    private int canClose;
+    private int canOpen;
 
     public int getCount() {
         return count;
@@ -31,19 +31,19 @@ public class CommentsInfo {
         this.groupCanPost = groupCanPost;
     }
 
-    public boolean isCanClose() {
+    public int getCanClose() {
         return canClose;
     }
 
-    public void setCanClose(boolean canClose) {
+    public void setCanClose(int canClose) {
         this.canClose = canClose;
     }
 
-    public boolean isCanOpen() {
+    public int getCanOpen() {
         return canOpen;
     }
 
-    public void setCanOpen(boolean canOpen) {
+    public void setCanOpen(int canOpen) {
         this.canOpen = canOpen;
     }
 }
